@@ -1,0 +1,34 @@
+body {
+    background-color: aquamarine;
+}
+
+p {
+    width: 350px;  /* Con esto limitamos el ANCHO de la caja en la que esta el texto */
+    background-color: blueviolet;
+    margin: auto; /* esta es una manera de dar un MARGEN AUTOMATICO  ooooo  tambien definir uno */
+    position: fixed;  /* por DEFECTO vienen con Propiedad "STATIC" */
+    right: 700px;
+    top: 90px;
+    bottom: 525px; 
+    /*  */
+    /* 
+    */
+}
+
+
+/* 
+OJO - APENDICE:
+    Diferencia entre MAX-WIDTH y WIDTH:
+    MAX-WIDTH:: es el ancho MAXIMO q la propiedad puede utilizar (basicamente se puede achicar// NO dejar moverse a los lados) 
+    WIDTH:: este SI se define COMO EL ANCHO q va a tener (si nos va dejar mover a los lados por que aunque achiquemos la pantalla el ancho es fijo)
+    FIXED:: esta deja FIJO el texto, por mas que bajemos NO se mueve // siempre nos acompaña en el mismo lugar
+    Ojito: puede haber un punto en que ambas permitan mover a los lados, Igual la diferencia se va a notar con un poco mas de analisis
+
+    POSITION: puede tener las propiedades: 
+    STATIC: el texto queda donde lo definimos
+    RELATIVE: al agregar esto nos permite jugar con la caja definiendo nuevos parametros en las SIGUIENTES ETIQUETAS
+    (right /// left) con estas podemos usar cada una para lo que es, ó , optamos por usar numeros negativos
+    (bOttom) es basicamente un boton sin mas, OJito q tiene maña xq dependiendo de como lo definamos puede q se pierda con el zoom
+    (top) movemos las caja(junto al texto) sea arriba o abajo
+
+*/

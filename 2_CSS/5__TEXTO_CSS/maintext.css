@@ -1,0 +1,53 @@
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace ;     /* esto es para dar una FUENTE al TEXTO,
+    DEPENDIENDO de SISTEMA OPERATIVO puede que a algunas fuentes no las reconozca, por eso usar 'Times New Roman' es LA NORMA */
+    font-weight: 100;               /* peso/ANCHO de las LETRAS: puede usarse para crear NEGRITAS pero es MAS PERSONALIZADO, se puede usar PALABRAS o UNIDADES
+    (NORMAL - BOLD ; 100 - 200 - 300 - 400 - 500 hasta 900, las UNIDADES van de cien en cien y en un rango de 100 a 900 aunque a veces no agarran bien las unidades los exploradores)*/
+    font-style: oblique;       /* (NORMAL - ITALIC - OBLIQUE) las DOS ULTIMAS son IGUALES*/  
+    font-size: 1.5em;       /* TAMAÑO de las palabras, AQUI se usa la unidad de medida EM (esta unidad pertenece a los exploradores, por lo que es un estandar)
+    en vez de PX porque NO GENERA PROBLEMAS en la ESTETICA, (1em = 16px PERO esto puede llegar a VARIAR por CONFIGURACIONES del usuario) */
+
+    
+    
+    color: #222fff;              /* Se puede poner BLUE, RED, ETC. PERO" es mejor escribir en hexagesimal */
+    text-align: left;        /* Para linear TODO el TEXTO a la IZQUIERDA, CENTRO o al DERECHO de la pantalla*/
+    text-indent: 50px;    /* esto sirve para IDENTAR (crear un espacio al inicio de la linea) un texto*/
+    line-height: 2;   /* esta es para la ALTURA entre LINEAS, OJO a como se escribe a la instruccion. NO SE USA UNA MEDIDA como los PX*/
+    letter-spacing: 2px;   /* para ESPACIAR LETRAS (las letras != palabras)*/
+    word-spacing: 20px;    /* para ESPACIAR PALABRAS (PALABRA = conjunto de LETRAS)*/
+    text-shadow: 10px 5px 1px  rgba(2, 253, 65, 1); 
+    /* 
+    10px que tanto se mueve la sombra a lo HORIZONTAL
+    5px que tanto se mueve la sombra a lo VERTICAL
+    2px que tan DIFUMINADO queda la SOMBRA, o que tanto se ve el CONTORNO de las LETRAS 
+    RGBA(*,*,*,4to) es otra manera de declarar un color, 4to parametro es la CANTIDAD de COLOR o TRANSPARENCIA, este da un EFECTO de TRIDIMENSIONALIDAD
+    el cuarto valor va de 0 a 1, siendo el uno la TRANSPARENCIA mas FUERTE.
+    OJO: 3ER valor del PRIMER GRUPO o lo que esta fuera del () y el 4TO valor del SEGUNDO GRUPO, NO son IGUALES (3er != 4to)*/
+
+}
+
+a {
+    text-decoration: none;     /*  SUBRAYADO en distentas partes (ver apéndice 1)  */
+    text-transform: capitalize;       /* Todo MAYUSCULAS-MINUSCULAS-CAPITALIZADO (ver apendice 2)*/
+    letter-spacing: 5px;         /* Para crear un ESPACIO o SEPARACION ENTRE las LETRAS de una PALABRA*/
+}
+
+/* 
+1  Para ENLACES por defecto viene con SUBRAYADO
+con NONE podemos eliminar esto. OVERLINE hace una linea encima del texto. LINE-THROUGH hace una linea q cruza al texto.
+UNDERLINE hace que el texto este SUBRAYADO (funciona con textos normales y enlaces).
+Solo en un caso es mejor poner el SUBRAYADO con HTML que con CSS.
+*/
+
+/* 
+2  TEXT-TRANSFORM: transforma a todo el texto (mayuscula, minuscula capitalizado) 
+UPPERCASE: hace que todo el texto quede en MAYUSCULAS
+LOWERCASE: hace que todo el texto quede en MINUSCULAS
+CAPITALIZE: hace que todo el texto quede CAPITALIZADO (en MAYUSCULA solo la 1ra letra)
+
+*/

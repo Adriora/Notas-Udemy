@@ -1,0 +1,38 @@
+
+body {
+    background-color: #eee;
+}
+
+a {
+    color: hotpink;     /* Aqui tenemos 3 formas de declrara el color, cualquiera es valida*/
+    background-color: #ff0;    /* con este truco le ponemos un resaltado/color al fondo solo del enlace*/
+    margin: 2em;          /* mueve cajas a lo horizontal */
+    padding: 1em;      /* mueve cajas a lo horizontal y vertical (POR ALGUNA RAZON NO FUNCIONA) */
+    border: solid 2px black;
+    border-radius: 4px;
+
+    /* margin-top: 25px;      Por alguna razon NO FUNCIONA, mas adelante vemos otros metodos */
+    
+}
+
+a:link {                 /* OJO esto es otro selector, DERIVADO ojito a la escritura*/
+    color: pink;        /* No termino de entender esta wbda pero por como vi es para cuando el enlace es NO VISITADO */
+    text-decoration: none;  /* esta es otra forma de a{] la cual seria la de defecto */
+}
+
+a:visited {            /* Para cuando el enlace es VISITADO*/
+    color: white;
+}
+
+/* OJO a la forma en la que se UBICA las ETIQUETAS/ SELECTORES, puden generar PROBLEMAS */
+
+a:hover {             /* Para cuando esta el puntero sobre el ENLACE pero NO clicado */
+    color: gray;
+    text-decoration: underline;      /* esto junto con la etiqueta en la que esta hace q se muestre un subrayado cuando pasa el puntero encima del enlace */
+    background-color: #d00;  
+} 
+
+a:active {                  /* Para cuando se esta CLICANDO EL ENLACE */
+    color: black;
+}
+  

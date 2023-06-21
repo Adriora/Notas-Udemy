@@ -1,0 +1,41 @@
+body {
+    background-color: #d0bdbdee;
+}
+
+.caja{
+    margin: 8px;         /* los pixeles cuentan solo de los lados HORIZONTALES x2, arriba no hace nada */
+    padding: 15px;      /*ayuda a CENTRAR en la caja PORQUE Los pixeles cuentan de ARRIBA y ABAJO (horzontal y vertical) hacia ADENTRO*/
+    border-style: solid;            /* crea el borde que esta entre el MARGIN y el PUDDING, si no se indica color TOMA el del TEXTO*/    
+    /* solid = linea continua*/                            
+    /* dashed = linea punteada */   
+    /* dotted = linea punteada trazos cortos */
+    /* double = 2 lineas paralelas */
+    /* groove = genera una LINEA CON esta linea teniendo un filo Blanco hacia dentro y el resto negro*/
+    /* ridge = similar groove pero con sombreado solo en la parte inferior derecha y abajo*/
+    /* inset = da un estilo medio hundido, o margenes hacia adentro*/
+    /* outset = da la sensacion de que el contenido esta levantado contrario a RIDGE*/
+    /* none = no hace nada/ o viene por defecto*/
+    /* hidden = borde oculto similar a NONE*/
+    /* Se puede MEZLAR los 4 TIPOS de BORDES ejem: "dotted dashed groove double" empieza desde arriba y continua a la derecha */
+
+    border-width: 1px;               /* esto se traduce "ANCHO DE LA LINEA DEL BORDE" */ 
+    border-color: #ff0000bb;
+    border-radius: 8px;           /* para dale CURVA a las ESQUINAS*/
+    height: 50px;                /* esto para dar el ALTO de un borde    OJO: Borde != Linea del Borde*/
+    width: 50px;                 /* esto para dar el ANCHO de un borde*/
+    
+    /* border: 2px #0bc74aee double;          Para simplificar tambien se puede hacer esto PERO no se que tan CORRECTO sea */
+
+    /*  border-left: 3px #aaa double;      para borde izquierdo                              TODO esto es para BORDES ESPECIFICOS
+        border-top: dashed 4px #000fff ;   para border superior
+        border-bottom: #ce2828 solid 1px ; para border inferior
+        border-right: 2px #414251 solid;   para borde derecho           <-- Para buenas practicas es bueno seguir esta ESTRUCTURA
+
+
+        border-right: 2px #414251 solid;   para borde derecho              <--- Cuando hacemos esto (repetir una instruccion) se EJECUTA la ULTIMA LINEA
+        border-right: 4px #414251 solid;   para borde derecho                   a la primera linea NO la toma en cuenta
+    */
+
+    background-color: #11b9fb;                                          /* #aaf color bonito*/ 
+    color: #c2f715;
+}

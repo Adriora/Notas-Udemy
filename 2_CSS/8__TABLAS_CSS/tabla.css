@@ -1,0 +1,30 @@
+body {
+    background-color: #84ff00;
+}
+
+table{
+    width: 100%;   /* cuando ponemos porcentaje, este usara lo q se extienda la pantalla, para este caso se distribuira por toda la pantalla */
+    background-color: fuchsia;
+    border-collapse: collapse;  /* cada BLOQUE tiene cierta separacion con esta etiqueta MODIFICAMOS eso para CERRAR esos huecos, se puede usar PX como unidad alternativa  */
+}
+
+tr:nth-child(even) {              /* Para indicar a que filas PARES == EVEN o IMPARES == ODD se les aplica la propiedad acontinuacion */
+    background-color: rgb(225, 145, 40);
+}
+
+td {
+    border: 3px solid black;  
+    padding: 10px;
+}
+
+table th {
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+    padding-right: 12px;   /* todo esto es para temas ilustrativos, BASTA con poner un PADDING normal para que cambie el espacio en todas dirreciones hacia adentro */
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;   /* Esto modifica la parte de abajo, (hacia adentro)*/
+    border: solid 3px #4000ff;
+    /* border-style: solid;   OJO a que SIEMPRE toca DEFINIR el ESTILO del borde para despues darle color y todo lo demas*/
+}

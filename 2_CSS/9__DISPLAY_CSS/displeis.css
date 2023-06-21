@@ -1,0 +1,16 @@
+
+body {
+    background-color: rgb(14, 137, 244);
+}
+
+#ejemplo1 {
+    display: inline;    /*De esta manera hacemos el cambio antes mencionado, Se puede hacer al REVEZ tambien */
+}
+
+#ejemplo2 {
+    display: inline;    /* OJO para q funcione con mas de un elemento con la MISMA PROPIEDAD es necesario cambiar la propiedad en ambos con ID ó CLASS */
+}
+
+#elem_Invisible {
+    display: none;
+} 

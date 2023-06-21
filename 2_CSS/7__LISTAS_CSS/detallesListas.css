@@ -1,0 +1,37 @@
+body {
+    background-color: #98a0a7;
+}
+
+ul {
+    /* margin: 15px;
+    padding: 30px; */
+    padding: 0px;   /* OJO al APENDICE_1 de abajo, esa seria la forma correcta en estos casos */
+    list-style-type: none;     /* OJITO con esto es otra forma de darle estilo a las bolitas/cuadradito de la lista, ver APENDICE */
+    background-color: aqua;
+    border-radius: 8px;
+    border: solid 3px #d84b0e
+
+    /*
+    APENDICE_1:::::
+    padding-left: 0px    esto ayuda a solo crear un espacio hacia adentro A la IZQUIERDA, es mejor q solo padding ya q se enfoca en una sola direccion */
+    
+}
+
+/* ul li{                     OJO a la forma en la que se SELECCIONA, esto se puede traspolar a otros casos
+
+    list-style-type: lower-alpha;     --->> ver mas en APENDICE_2 
+} */
+
+li {                     /* por lo q anduve provando es lo mismo que decir " UL LI {} " */     
+    border-bottom: solid 2px #0087fd;   /* con esta etiqueta se puede definir de una sola el TIPO, ANCHO y COLOR del "" BORDE INFERIOR "" */
+    padding: 30px;
+}
+
+/*
+APENDICE_2:
+none: quita los circulos/cuadrados/lo q sea
+circule: circuos vacios
+square: cuadraditos
+upper-roman: numeros romanos
+lower-alpha: letras del abecedario (en minusculas) 
+*/
