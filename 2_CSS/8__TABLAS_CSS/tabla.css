@@ -3,7 +3,7 @@ body {
 }
 
 table{
-    width: 100%;   /* cuando ponemos porcentaje, este usara lo q se extienda la pantalla, para este caso se distribuira por toda la pantalla */
+    width: 100%;   /* cuando ponemos porcentaje, este usara lo q se extienda la pantalla, para este caso se distribuira por toda la pantalla // Dicho de otra forma estamos indicando el Ancho que va a Usar, para este caso con 100% usará todo el ancho disponible */
     background-color: fuchsia;
     border-collapse: collapse;  /* cada BLOQUE tiene cierta separacion con esta etiqueta MODIFICAMOS eso para CERRAR esos huecos, se puede usar PX como unidad alternativa  */
 }
