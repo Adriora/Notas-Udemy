@@ -24,7 +24,7 @@ a:visited {            /* Para cuando el enlace es VISITADO*/
     color: white;
 }
 
-/* OJO a la forma en la que se UBICA las ETIQUETAS/ SELECTORES, puden generar PROBLEMAS */
+/* OJO a la forma en la que se UBICA las ETIQUETAS/ SELECTORES, puden generar PROBLEMAS, este caso en este orden Active y Hover funcionan Bien. */
 
 a:hover {             /* Para cuando esta el puntero sobre el ENLACE pero NO clicado */
     color: gray;
@@ -32,7 +32,7 @@ a:hover {             /* Para cuando esta el puntero sobre el ENLACE pero NO cli
     background-color: #d00;  
 } 
 
-a:active {                  /* Para cuando se esta CLICANDO EL ENLACE */
+a:active {                  /* Para cuando se esta CLICANDO Y se ARRASTRA EL ENLACE */
     color: black;
 }
   
