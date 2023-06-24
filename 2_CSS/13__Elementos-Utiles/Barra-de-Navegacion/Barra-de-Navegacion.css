@@ -1,0 +1,40 @@
+
+body  {
+    background-color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover {                  /* Ojito: estoy indicando los elementos a dar estilo y a su vez indico la Propiedad */
+    background-color: rgba(0, 0, 0, 0.3);  /* con esto le aplico una sombra a la Barra de Navegacion */
+}
+
+.active {
+    background-color: #4CAF50;     /* ojo a esto, le damos un color al fondo Pero al pasar el mouse por encima vemos q se muestra o mantiene los efectos declarados anteriormente (hover y backgraund-color) */
+}
+
+.content {
+    margin-top: 55px;  /* esto lo hago para que el 1er contenido de arriba no se Oculte por la barra de navegacion */
+}

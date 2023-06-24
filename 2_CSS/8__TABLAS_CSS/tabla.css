@@ -8,7 +8,7 @@ table{
     border-collapse: collapse;  /* cada BLOQUE tiene cierta separacion con esta etiqueta MODIFICAMOS eso para CERRAR esos huecos, se puede usar PX como unidad alternativa  */
 }
 
-tr:nth-child(even) {              /* Para indicar a que filas PARES == EVEN o IMPARES == ODD se les aplica la propiedad acontinuacion */
+tr:nth-child(even) {              /* Para indicar a que filas (hij@s) PARES == EVEN o IMPARES == ODD se les aplica la propiedad acontinuacion */
     background-color: rgb(225, 145, 40);
 }
 

@@ -1,0 +1,24 @@
+
+body {
+    background-color: aqua;
+
+}
+
+img {
+    float:right;   /* con esto fijamos la imagen a la izquierda o derecha, y el texto se pasa a la parte sobrante */
+}
+
+img:hover {    /* Nueva forma de poner etiquetas, ojito para que funcione no debe haber espacios */
+    opacity: 0.7;  /* Opacidad/Transferencia --> va de entre los valores 0 a 1 */
+}
+
+div p {              /* OJO a esto se le llama Selectores con Descendientes, y a tener 2 o mas selectores Combinaciones de selectores (q obvio :p) */
+    color: tomato;    /* continuando con lo de arriba, primero indicamos el Selector Padre despues el Selector Hijo, despues en los corchetes se indica la propiedad CSS que querramos */
+}
+
+/* 
+    Float:
+        Normalmente la imagen se ubicaria Arriba y el texto abajo, pero con esto hacemos que el texto ocupe 
+        el espacio faltante de donde deseamos que se fije la imagen.
+    Pueden usarse: right - left - entre otras que puedo ir experimentando con el IDE
+*/

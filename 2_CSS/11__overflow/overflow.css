@@ -1,0 +1,27 @@
+
+
+body {
+    background-color: antiquewhite;
+}
+
+#overflow {
+    width: 100px;
+    height: 100px;
+
+    overflow: auto;
+}
+
+/* 
+   Apendice
+   Overflow: 
+    usamos esta etiqueta cuando hacemos la CAJA del texto No alcanza a contener a TODO el texto
+    asi que parte tiende a perderse, por lo que tenemos para solucionar esto las siguientes propiedades: 
+        visible: muestra todo el contenido de la caja aun estando fuera de esta.
+        hidden: Oculta todo el contenido que no quepa en la caja, No deja hacer Scroll
+        Scroll: no deja ver el contenido fuera de la caja, pero si permite visualizarlo haciendo Scroll
+        Auto: agrega o no Scroll segun vea conveniente el Programa?
+
+    Si queremos la barra de Scroll para otro posicion podemos hacerlo mediante: 
+        overflow-x: scroll
+   
+*/

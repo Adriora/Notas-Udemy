@@ -1,0 +1,46 @@
+
+body {
+    background-color: aliceblue;
+}
+
+.dropdown-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;    /* Nueva propiedad, con esto hacemos que el puntero cambie a una Manito cuando pase encima del boton */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;     /* para ver en lo que programo como queda el contenido se le pone en un inicio la propiedad BLOCK despues de finalizar la cambio a NONE para dar el efecto */
+    position: absolute;   /* Hacemos que el contenido sea abyacente a otro contenido // con esto la posicion del contenido es absoluta al Padre (en este caso el boton), por tanto el contenido que haya abajo lo va a tapar. */
+    background-color: #f9f9f9;
+    min-width: 160px;        /* Ancho minimo */
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);    /* Basicamente Sombra de la caja (q obvio) */
+}
+
+.dropdown-content a {     /* con esto seleccionamos a solo los links dentro de ese div */
+    color: black;
+    padding: 12px 16px;   /* Para declarar Padding (vertical y horizontal) en una linea, esto ayuda especialmente xq estamos usando (display: inline-block). Se puede usar en otros casos */
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {    /* Ojito a como selecciono los links */
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-btn {   /* Ojito a como selecciono el BOTON (esto es algo NUEVO) */
+    background-color: #3e8e41;    
+}
+
+.dropdown:hover .dropdown-content{    /* Gracias a esta nueva propiedad puedo hacer que aparezca el contenido al pasar el cursor sobre el boton */
+    display: block;
+}
+

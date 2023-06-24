@@ -12,5 +12,10 @@ body {
 }
 
 #elem_Invisible {
-    display: none;
+    display: none;        /* con NONE hacemos al elemento invisible */
 } 
+
+/*                                             Display == Vvizualizacion == Mostrar */
+
+
+/*   Recien me encuentro que existe la propiedad  "INLINE-BLOCK"  --->> Basicamente hace que se traten a los bloques (No el contenido) como Inline, permitiendo a su vez jugar con el alto y ancho de estos */
